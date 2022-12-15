@@ -6,9 +6,9 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "159.223.191.140:8081"
-        NEXUS_REPOSITORY = "java-app"
-        NEXUS_CREDENTIAL_ID = "NEXUS_CRED"
+        NEXUS_URL = "18.116.27.203:8081"
+        NEXUS_REPOSITORY = "maven-central-repository1"
+        NEXUS_CREDENTIAL_ID = "NEXUS_TEST"
     }
     stages {
         stage("Clone code from GitHub") {
